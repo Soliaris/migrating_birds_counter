@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background-image: url("images/migrating-birds.jpg");
+    background-size: cover;
+    background-position: center;
+    padding:20px;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main {
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 10px;
+    padding:10px;
+    border:1px solid rgb(185, 185, 185);
+    max-width: 800px;
+    min-width: 500px;
+    margin:0 auto;
+}
+
+button {
+    background-color:white;
+    color:rgb(41, 41, 41);
+    border: 1px solid rgb(185, 185, 185);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    margin:10px;
+}
+
+#increment-btn {
+    background-color:rgb(255, 211, 128);
+}
+
+#save-btn {
+    background-color:rgb(175, 255, 128);
+}
+
+#title-el {
+    background-color: rgba(255, 162, 75, 0.705);
+    border: 1px solid rgb(185, 185, 185);
+    padding: 10px 20px;
+    margin:10px 30px;
+    border-radius: 10px;
+}
+
+#count-el {
+    font-size: 40px;
+    margin:30px 0px 20px 0px;
+}
+
+#entry-el {
+    margin-top:100px 0 70px 0;
+    font-size: 24px;
+    font-style: italic;
+}
